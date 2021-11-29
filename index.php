@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./CSS/index.css">
     <title>My Portofolio</title>
   </head>
   <body>
@@ -42,7 +42,7 @@
     <div class="main-website">
         <div class="main-1">
             <div class="jumbotron text-center" style="background-color: #030303c5; padding-top: 10px;">
-                <img src="19650077.png" class="rounded-circle img-thumbnail" style="width: 200px; height: 200px;" alt="foto profil">
+                <img src="./image/19650077.png" class="rounded-circle img-thumbnail" style="width: 200px; height: 200px;" alt="foto profil">
                 <h1 class="display-5" style="color: white;">Bahrein Giri Fillahi A'rof (19650077)</h1>
                 <p class="lead" style="color: white;">Web Developer | Cyber Security</p>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#949090" 
@@ -57,21 +57,21 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="col text-center">
-                        <img src="Mi.jpg" class="rounded img-thumbnail" alt="foto MI" style="width: 300px; height: 200px;">
+                        <img src="./image/Mi.jpg" class="rounded img-thumbnail" alt="foto MI" style="width: 300px; height: 200px;">
                         <p style="color: white; font-weight: bold;">MI Attaraqqie (2007-2013)</p>
                         </div>
                         <div class="col text-center">
-                        <img src="Mts.jpg" class="rounded img-thumbnail" alt="foto MTS" style="width: 300px; height: 200px;">
+                        <img src="./image/Mts.jpg" class="rounded img-thumbnail" alt="foto MTS" style="width: 300px; height: 200px;">
                         <p style="color: white; font-weight: bold;">MTsN Malang III (2013-2016)</p>
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col text-center">
-                        <img src="Ma.jfif" class="rounded img-thumbnail" alt="foto MA" style="width: 300px; height: 200px;">
+                        <img src="./image/Ma.jfif" class="rounded img-thumbnail" alt="foto MA" style="width: 300px; height: 200px;">
                         <p style="color: white; font-weight: bold;">MAN Gondanglegi (2016-2019)</p>
                         </div>
                         <div class="col text-center">
-                        <img src="Uin.jpg" class="rounded img-thumbnail" alt="foto UIN" style="width: 300px; height: 200px;">
+                        <img src="./image/Uin.jpg" class="rounded img-thumbnail" alt="foto UIN" style="width: 300px; height: 200px;">
                         <p style="color: white; font-weight: bold;">UIN Maulana Malik Ibrahim (2019-sekarang)</p>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                 <div class="row justify-content-center" style="padding: 10px;">
                     <div class="col-4">
                         <div class="card">
-                            <img src="P1.png" class="card-img-top" alt="project1">
+                            <img src="./image/P1.png" class="card-img-top" alt="project1">
                             <div class="card-body">
                                 <h5 class="card-title">Project 1</h5>
                                 <p class="card-text">Membuat Website Responsif Aplikasi Fitur Progate</p>
@@ -107,7 +107,7 @@
                     </div>
                     <div class="col-4">
                         <div class="card">
-                            <img src="P2.png" class="card-img-top" alt="project2">
+                            <img src="./image/P2.png" class="card-img-top" alt="project2">
                             <div class="card-body">
                                 <h5 class="card-title">Project 2</h5>
                                 <p class="card-text">Membuat Website Responsif Aplikasi Pengelola Content</p>
@@ -118,7 +118,7 @@
                 <div class="row justify-content-center" style="padding: 10px;">
                     <div class="col-4">
                         <div class="card">
-                            <img src="P3.png" class="card-img-top" alt="project3">
+                            <img src="./image/P3.png" class="card-img-top" alt="project3">
                             <div class="card-body">
                                 <h5 class="card-title">Project 3</h5>
                                 <p class="card-text">Membuat Rangkaian Elektronika Project Smart Detector Movement</p>
@@ -127,7 +127,7 @@
                     </div>
                     <div class="col-4">
                         <div class="card">
-                            <img src="P4.png" class="card-img-top" alt="project4">
+                            <img src="./image/P4.png" class="card-img-top" alt="project4">
                             <div class="card-body">
                                 <h5 class="card-title">Project 4</h5>
                                 <p class="card-text">Membuat Rangkaian Susunan Jaringan Komputer Pada Fakultas Saintek</p>
