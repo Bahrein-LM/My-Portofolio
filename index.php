@@ -168,24 +168,41 @@
                                     <label for="pesan" class="form-label">Pesan</label>
                                     <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-dark">Kirim</button>
-                                <button class="btn btn-dark d-none" type="button" disabled>
+                                <button type="submit" class="btn btn-dark btn-kirim">Kirim</button>
+
+                                <button class="btn btn-dark d-none btn-loading" type="button" disabled>
                                     <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
                                     Loading...
                                 </button>
                             </form>
-                            <div class="alert alert-success alert-dismissible fade show d-none" role="alert" style="margin-top: 20px;">
+                            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert" style="margin-top: 20px;">
                                 <strong>Terima Kasih :)</strong> Anda Telah Berhasil Mengirim Pesan....
                                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                             </div>
                             <script>
                                 const scriptURL = 'https://script.google.com/macros/s/AKfycbyGzVmplllbTbsI-cdtT_gKHs80p1wzQeHRJLSCFQD99ejA1Rg-K5wLqDsdfoqnYjNg/exec'
                                 const form = document.forms['my-contact-form']
+                                const btnKirim = document.querySelector('.btn-kirim');
+                                const btnLoading = document.querySelector('.btn-loading');
+                                const myAlert = document.querySelector('.my-alert');
 
                                 form.addEventListener('submit', e => {
-                                    e.preventDefault()
+                                    e.preventDefault();
+                                    //ketika tombol di-klik
+                                    //tampilkan tombol loading, hilangkan tombol kirim
+                                    btnLoading.classList.toggle('d-none');
+                                    btnKirim.classList.toggle('d-none');
                                     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                                    .then(response => console.log('Success!', response))
+                                    .then(response => {
+                                        //tampilkan tombol kirim, hilangkan loading
+                                        btnLoading.classList.toggle('d-none');
+                                        btnKirim.classList.toggle('d-none');
+                                        //tampilkan alert
+                                        myAlert.classList.toggle('d-none');
+                                        //reset form
+                                        form.reset();
+                                        console.log('Success!', response);
+                                    })
                                     .catch(error => console.error('Error!', error.message))
                                 })
                             </script>
