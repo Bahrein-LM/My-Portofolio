@@ -1,8 +1,0 @@
-@media all and (max-width: 600px) {
-  .header-list a {
-    padding: 0 25px;
-  }
-  .footer-bar {
-    width: 900px;
-  }
-}
