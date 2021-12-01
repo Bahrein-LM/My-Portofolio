@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Tampilan Header-website*/
+.header-bar {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(3, 34, 136, 0.705);
+  position: fixed;
+  z-index: 10;
+  opacity: 0.7;
+}
+.header-logo {
+  padding: 10px;
+  margin-left: 40px;
+}
+.header-list {
+  list-style: none;
+  float: right;
+}
+.header-list li {
+  float: left;
+}
+.header-list a {
+  line-height: 100px;
+  padding: 0 30px;
+  display: block;
+  transition: all 0.5s;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  border: black;
+}
+a:hover {
+  background-color: gray;
+}
+
+/* Tampilan Main-website*/
+.main {
+  width: 100%;
+  height: 1100px;
+  background-image: url(Gambar-galaxy.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.main-background {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 1100px;
+  background-color: white;
+}
+.main-header {
+  background-image: url(sistem-operasi.jpg);
+  background-size: auto;
+  background-position: top center;
+  height: 210px;
+}
+.main-main {
+  border-style: dashed;
+  border: 10px chocolate;
+  border-radius: 10px;
+  border-width: 10px;
+}
+.main-main h1 {
+  font-family: Helvetica;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+.main-1 {
+  color: black;
+}
+.judul-1 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  text-align: left;
+  font-size: 30px;
+}
+.artikel-1 img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.paragraf-1 {
+  font-family: "Times New Roman";
+  font-size: 15px;
+  text-align: justify;
+  margin: 10px;
+  line-height: 20px;
+}
+.paragraf-2 {
+  font-family: "Times New Roman";
+  font-size: 15px;
+  text-align: justify;
+  margin: 10px;
+  line-height: 20px;
+}
+.poin-1 {
+  text-align: justify;
+  font-size: 15px;
+  margin: 10px;
+  font-family: "Times New Roman";
+}
+.kelebihan-1 {
+  text-align: justify;
+  font-family: "Times New Roman";
+  font-size: 15px;
+  margin: 10px;
+  margin-left: 25px;
+  line-height: 20px;
+}
+.kelebihan-1 li {
+  font-weight: bold;
+}
+.kelebihan-1 p {
+  margin-left: 25px;
+}
+.poin-2 {
+  text-align: justify;
+  font-size: 15px;
+  margin: 10px;
+  font-family: "Times New Roman";
+}
+.kekurangan-2 {
+  text-align: justify;
+  font-family: "Times New Roman";
+  font-size: 15px;
+  margin: 10px;
+  margin-left: 25px;
+  line-height: 20px;
+}
+.footer-bar {
+  width: 100%;
+  height: 130px;
+  background-color: rgb(4, 20, 71);
+}
+.footer-list {
+  padding-left: 25px;
+}
+.footer-judul {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
